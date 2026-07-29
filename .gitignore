@@ -26,7 +26,6 @@ vendor/
 
 # IDE and editors
 .idea/
-.vscode/
 *.swp
 *.swo
 *~
@@ -35,6 +34,7 @@ vendor/
 .settings/
 
 # OS generated
+temp_auto_push.bat
 .DS_Store
 .DS_Store?
 Thumbs.db
@@ -72,3 +72,5 @@ tmp/
 config.local.*
 *.local.yaml
 *.local.yml
+.gitignore
+branch_structure.json
